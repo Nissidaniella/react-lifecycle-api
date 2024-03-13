@@ -1,8 +1,56 @@
-# React + Vite
+Here is a suggested README file for the React users class component:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Users Class Component
 
-Currently, two official plugins are available:
+This React component displays a list of users by fetching data in a class component.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
+
+Import and render the UsersClass component.
+
+```jsx
+import UsersClass from './UsersClass';
+
+function App() {
+  return <UsersClass />
+}
+```
+
+## Data Fetching
+
+The component uses the Fetch API in componentDidMount lifecycle method to make a GET request to a JSONplaceholder API.
+
+## State
+
+The user data is stored in component state and updated on fetch response.
+
+## Rendering 
+
+The users array is mapped over to display name, username and email details.
+
+## Key Features
+
+- Class component structure
+- Fetching data in componentDidMount 
+- Updating state on response
+- Mapping over data to display
+
+## Requirements
+
+- React
+- PropTypes 
+- Fetch API
+
+## Usage
+
+Make requests to API for dummy user data.
+Rendered data is fetched from external API source.
+
+## Contributing
+
+Pull requests welcome! Please open issues for any bugs.
+
+## Author
+
+[Nissi Diallo](/)
+
