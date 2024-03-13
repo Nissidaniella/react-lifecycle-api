@@ -1,5 +1,3 @@
-Here is a suggested README file for the React users class component:
-
 # Users Class Component
 
 This React component displays a list of users by fetching data in a class component.
