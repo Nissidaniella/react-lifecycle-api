@@ -1,10 +1,10 @@
 import React from 'react';
-import UsersClass from './UsersClass';
+import UsersFunction from './UsersFunction';
 
 function App() {
   return (
     <div>
-      <UsersClass />
+      <UsersFunction />
     </div>
   );
 }
